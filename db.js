@@ -4,7 +4,7 @@ const db = {};
 
 db.findUser = function(user, successCb, errorCb) {
   connect(function(con) {
-    var q = "select * from user where username = ?";
+    var q = "select * from TABLE where TABLE.ATTRIBUTE = ?";
     var values = [user.username];
     try {
       con.query(q, values, function (err, result, fields) {
