@@ -3,7 +3,7 @@
 MySQL Express Angular Nodejs stack application with authentication using JSON web tokens
 
 ## Description 
-This app is to help speed up the process of delpoying new MEAN (using MySQL) applicaitons.
+This app is to help speed up the process of delpoying new MEAN (using MySQL) applications.
 
 
 ## Installation
