@@ -18,7 +18,7 @@ const salt = bcrypt.genSaltSync(10);
 router.post('/register', (req, res, next) => {
   connect(function(con) {
     var passwordData = bcrypt.hashSync(req.body.password, salt);
-    var q = "insert into user (`first_name`, `last_name`, `email`, `username`, `password`) values (?, ?, ?, ?, ?)";
+    var q = "insert into TABLE (`TABLE.ATTRIBUTE`, `TABLE.ATTRIBUTE`, `TABLE.ATTRIBUTE`, `TABLE.ATTRIBUTE`, `TABLE.ATTRIBUTE`) values (?, ?, ?, ?, ?)";
     var values = [req.body.first_name, req.body.last_name, req.body.email, req.body.username, passwordData];
     try {
      con.query(q, values, function (err, result, fields) {
