@@ -2,7 +2,7 @@
 
 MySQL Express Angular Nodejs stack application with authentication using JSON web tokens
 
-### Installation
+## Installation
 
 Create `credentials.js` in the main directory
 
@@ -19,16 +19,10 @@ module.exports = {
 };
 ```
 
-Install the dependencies
+Install the dependencies for root directory
 
 ```sh
 $ npm install
-```
-
-Run app
-
-```sh
-$ npm start
 ```
 
 ### Setting up Angular 7
@@ -38,13 +32,24 @@ Enter Angular Src
 $ cd angular-src/
 ```
 
-Install Angular Node Module Dependencies
+Install the Angular dependencies
+
 ```sh
-$  npm install
+$ npm install
+```
+Return to root directory
+
+```sh
+$ cd ..
 ```
 
+Run app
 
-Run the Angular CLI, make sure still inside `angular-src/`
 ```sh
-$ ng serve --open
+$ npm start
 ```
+
+If steps where followed should see `Server listening on 3000 press Ctrl-C to terminate`
+
+
+Go to Browser at `localhost:3000`
