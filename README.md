@@ -19,7 +19,8 @@ module.exports = {
   host: "DB_HOST_URL",
   user: "DB_USER",
   password: "DB_PASSWORD",
-  database: "DB"
+  database: "DB",
+  cookieSecret: "ENTER_YOUR_SECRET"
 };
 ```
 
