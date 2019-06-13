@@ -58,5 +58,5 @@ If steps where followed should see `Server listening on 3000 press Ctrl-C to ter
 
 Go to Browser at `localhost:3000`
 
-### You will need to upadate the table names and tables fields in both `db.js` & `routes/users.js`
+#### You will need to upadate the table names and tables fields in both `db.js` & `routes/users.js`
 I am still wokring on better way to encapsulate those processes. Stay tuned...
